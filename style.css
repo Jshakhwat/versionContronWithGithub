@@ -1,7 +1,11 @@
-body{
-background-image: url(/img/pexels-yuliya-strizhkina-1198802.jpg);
-}
 
+.bg{
+  background-image: url(/img/pexels-yuliya-strizhkina-1198802.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
 /* nav{
     background-color: blueviolet;
 } */
@@ -57,7 +61,8 @@ border-radius: 50%;
   font-family: arial;
   font-size: 28px;
   margin-bottom: 30px;
-  margin-top: 10px
+  margin-top: 10px;
+  margin-left: -122px;
 }
 .context p{
   color: black;
@@ -66,4 +71,75 @@ border-radius: 50%;
 }
 .full_content{
     display: flex;
+}
+
+/* video background*/
+video, .video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.video-overlay {
+  background: rgba(0,0,0, 0.5);
+}
+
+.content {
+  position: relative;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4em;
+  width: 600px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+h5 {
+  font-size: 1em;
+  background: lightblue;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+
+/* YouTube Link */
+.youtube-link {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 150px;
+  margin-left: -75px;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  font-family: Arial;
+}
+
+.youtube-link a {
+  text-decoration: none;
+  color: #CCC;
+  display: inline-block;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
+@media(max-height: 400px) {
+  .youtube-link {
+    display: none;
+  }
+}
+.bg-danger{
+  z-index: 1;
 }
