@@ -74,8 +74,8 @@ video {
     font-family: arial;
     font-size: 28px;
     margin-bottom: 30px;
-    margin-top: 10px;
-    margin-left: -122px;
+    margin-top: 31px;
+    /* margin-left: -122px; */
   }
   .context p{
     color: black;
