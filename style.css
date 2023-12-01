@@ -89,7 +89,6 @@ nav.primary-menu {
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 5px;
   position: relative;
-  z-index: 1;
   transition: all 0.5s ease 0s;
   margin-bottom: 40px;
 }
@@ -174,6 +173,7 @@ section.about_secion {
   overflow: hidden;
   background: rgb(245, 244, 244);
   margin: 0px !important;
+  position: relative;
 }
 .about_margin_bottom {
   margin-bottom: 89px;
