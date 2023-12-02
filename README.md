@@ -1,2 +1,2 @@
 # versionContronWithGithub
-This project is for education purpose.
+This project is for educational purposes.
