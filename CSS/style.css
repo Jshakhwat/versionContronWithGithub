@@ -22,6 +22,9 @@ a {
   max-height: 67px;
   background-color: aliceblue;
   width: 100%;
+  position: sticky;
+  z-index: 99999;
+  top: 0;
 }
 
 .logo h1 {
