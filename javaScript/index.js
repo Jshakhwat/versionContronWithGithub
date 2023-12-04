@@ -1,1 +1,1 @@
-alert('This the 2nd page of the project')
+alert('This is the 2nd page of the project')
