@@ -23,7 +23,7 @@ a {
   background-color: aliceblue;
   width: 100%;
   position: sticky;
-  z-index: 99999;
+  z-index: 999999;
   top: 0;
 }
 
@@ -74,7 +74,7 @@ nav.primary-menu {
   background-color: rgb(8, 70, 120);
   width: 115px;
   color: white;
-  margin-bottom: 60px;
+  margin-bottom: 162px;
   text-align: center;
   padding: 9px;
   border-radius: 4px;
@@ -155,7 +155,7 @@ img {
 }
 
 .team_section {
-  margin-top: 70px;
+  margin-top: 112px;
   margin-bottom: 70px;
   position: relative;
 }
@@ -175,12 +175,54 @@ img {
 }
 section.about_secion {
   overflow: hidden;
-  background: rgb(245, 244, 244);
+  background: rgb(249 249 249);
   margin: 0px !important;
 }
 .about_margin_bottom {
   margin-bottom: 89px;
 }
+
 .c_foter{
   background-color: #38648a;
+}
+.purpose_business{
+  max-width: 1000px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 1px 0px 13px 16px rgb(215 207 207);
+}
+.content_purpose{
+  margin-top: 38px;
+  padding: 20px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 1px;
+}
+.content_purpose h3{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.content_purpose h1{
+  margin-bottom: 30px;
+}
+.content_purpose p{
+  color: black;
+  font-size: 20px;
+  line-height: 31px;
+}
+.purpose_btn{
+  width: 150px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 19px;
+  font-family: Roboto, sans-serif;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+section.purpose {
+  background: #f9f9f9;
+  transform: translateY(-48px);
+  z-index: -1;
+  margin-bottom: -49px;
 }
