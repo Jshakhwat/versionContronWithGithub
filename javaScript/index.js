@@ -1,1 +1,1 @@
-alert('This is the greeting page of the project')
+alert('Thank you Anannya ma\'am')
