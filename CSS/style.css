@@ -109,11 +109,11 @@ nav.primary-menu {
   transform: translate(0px, -141px);
 }
 
-.container1:hover::before {
+/* .container1:hover::before {
   clip-path: ellipse(53% 36% at 50% 6%);
   background: rgb(165, 153, 233);
   transform: translate(0px, 0px);
-}
+} */
 
 .image {
   width: 100px;
